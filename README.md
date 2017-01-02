@@ -180,3 +180,10 @@ Just send a pull request or open an [issue](https://github.com/ericdouglas/ES6-L
 1. [JSFixed](https://github.com/JSFixed/JSFixed/issues) - share your feelings, loves, hates, proposals on ES.next
 1. [es-discuss](https://mail.mozilla.org/listinfo/es-discuss) - Discussion of ECMAScript
 1. [Airbnb Javascript Style Guide for ES6](https://github.com/airbnb/javascript)
+
+## ES6 for Everyone Starter Files
+
+![ES6 for Everyone](https://es6.io/images/es6-facebook-share.png?cool=yah)
+
+Everything you need to Learn ES6 over at [ES6.io](https://ES6.io) and at [Starter Files to Learn with ES6 for Everyone](https://github.com/wesbos/es6.io) repository.
+
