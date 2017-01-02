@@ -2,7 +2,7 @@
 
 <img src = "./assets/ecmascript6.png"/>
 
-This repository code starts taking a look at some of the new features that JavaScript has available with ES6 (ECMAScript 2015). It is a "montage" from several instructors of [egghead.io](https://egghead.io/courses/learn-es6-ecmascript-2015).
+This repository code [starts](https://github.com/FMCalisto/learn-es6/tree/master/get-started) taking a look at some of the new features that JavaScript has available with ES6 (ECMAScript 2015). It is a "montage" from several instructors of [egghead.io](https://egghead.io/courses/learn-es6-ecmascript-2015).
 
 List of resources to learn **ECMAScript 6!**
 
