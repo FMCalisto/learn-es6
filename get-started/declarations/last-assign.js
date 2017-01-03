@@ -1,5 +1,11 @@
-var VALUE = 'hello world';
-VALUE = 'foo bar';
+var VAR_VALUE = 'hello world';
+VAR_VALUE = 'foo bar';
 
 // foo bar
-console.log('value: ', VALUE);
+console.log('var_value: ', VAR_VALUE);
+
+const CONST_VALUE = 'hello world';
+CONST_VALUE = 'foo bar';
+
+// Assignment to constant variable.
+console.log('const_value: ', CONST_VALUE);
