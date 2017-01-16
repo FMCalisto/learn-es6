@@ -10,6 +10,8 @@ function tag (strings, ...values) {
         values[2] = "home";
     }
 
+    console.log(values);
+
     return `${strings[0]}${values[0]}${strings[1]}${values[1]}${strings[2]}${values[2]}`
 }
 
