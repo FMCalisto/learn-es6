@@ -1,9 +1,11 @@
 var dataVar = new Promise((resolve, reject) => {
-  if (false) {
+  setTimeout(() => {
+    if (true) {
     resolve('RESOLVE');
   } else {
     reject('REJECT');
   }
+  }, 2000);
 });
 
 dataVar.then((data) => console.log('success: ', data));
