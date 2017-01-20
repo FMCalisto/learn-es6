@@ -1,5 +1,5 @@
 var dataVar = new Promise((resolve, reject) => {
-  if (true) {
+  if (false) {
     resolve('RESOLVE');
   } else {
     reject('REJECT');
@@ -8,4 +8,4 @@ var dataVar = new Promise((resolve, reject) => {
 
 dataVar.then((data) => console.log('success: ', data));
 
-dataVar.catch((error) => console.log('success: ', error));
+dataVar.catch((error) => console.error('error: ', error));
