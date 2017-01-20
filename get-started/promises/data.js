@@ -1,4 +1,4 @@
-var data = new Promise((resolve, reject) => {
+var dataVar = new Promise((resolve, reject) => {
   if (true) {
     resolve('RESOLVE');
   } else {
@@ -6,6 +6,6 @@ var data = new Promise((resolve, reject) => {
   }
 });
 
-data.then();
+dataVar.then((data) => console.log('success: ', data));
 
-data.catch();
+dataVar.catch((error) => console.log('success: ', error));
