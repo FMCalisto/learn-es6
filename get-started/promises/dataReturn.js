@@ -11,6 +11,7 @@ var dataVar = new Promise((resolve, reject) => {
 dataVar
   .then((data) => {
     console.log('success 1: ', data);
+    throw new Error('error thrown');
     return 'foo bar';
   })
   .then((data) => console.log('success 2: ', data))
