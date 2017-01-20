@@ -9,6 +9,9 @@ var dataVar = new Promise((resolve, reject) => {
 });
 
 dataVar
-  .then((data) => console.log('success 1: ', data))
+  .then((data) => {
+    console.log('success 1: ', data);
+    return 'foo bar';
+  })
   .then((data) => console.log('success 2: ', data))
   .catch((error) => console.error('error: ', error));
