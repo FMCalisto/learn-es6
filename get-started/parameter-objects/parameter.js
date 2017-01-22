@@ -7,7 +7,7 @@ function ajax({
   success = () => {},
   error = () => {},
   isAsync = true
-  } = {}) {
+  }) {
     console.log(JSON.stringify({
       type,
       url,
