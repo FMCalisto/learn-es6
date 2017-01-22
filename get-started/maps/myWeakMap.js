@@ -33,6 +33,6 @@ myMap.set(myFunc, 'world');
 //   console.log(value);
 // }
 
-// for (var [key, value] of myMap.entries()) {
-//   console.log(key + ' = ' + value);
-// }
+for (var [key, value] of myMap.entries()) {
+  console.log(key + ' = ' + value);
+}
