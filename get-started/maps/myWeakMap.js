@@ -1,4 +1,4 @@
-var myMap = new Map();
+var myMap = new WeakMap();
 
 //API
 /*
@@ -14,6 +14,7 @@ var myFunc = function(){};
 
 myMap.set(myObj, 'bar');
 myMap.set(myFunc, 'world');
+//myMap.set('string', 2);
 
 // console.log(myMap.get('foo'));
 // console.log(myMap.size);
@@ -32,6 +33,6 @@ myMap.set(myFunc, 'world');
 //   console.log(value);
 // }
 
-for (var [key, value] of myMap.entries()) {
-  console.log(key + ' = ' + value);
-}
+// for (var [key, value] of myMap.entries()) {
+//   console.log(key + ' = ' + value);
+// }
